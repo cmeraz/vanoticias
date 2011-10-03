@@ -1,0 +1,38 @@
+Role Manager v1.4.4 - ユーザー権限管理プラグイン
+MIT License - http://www.opensource.org/licenses/mit-license.php
+Developed by David House http://xmouse.ithium.net & Owen Winkler http://asymptomatic.net
+Translated by Naoko McCracken http://detlog.org/
+
+はじめに
+------------
+このプラグインを使って以下のことができます。
+
+・登録ユーザーの一人一人や、グループに対して与える権限を細かく設定する
+・対応プラグインと一緒に使い、そのプラグインの実行権限をユーザーによって制限する
+
+このプラグインの翻訳版配布ページ（日本語）： http://wppluginsj.sourceforge.jp/i18n-ja_jp/role-manager/
+このプラグインに関する追加情報（英語）： http://redalt.com/wiki/Role+Manager
+
+インストール
+------------
+1. ZIPファイルを解凍します。
+
+2. 解凍したフォルダの中にある「role-manager」フォルダの中身を、プラグインディレクトリ（/wp-content/plugins/）に移動します。
+WordPressの文字コードがUTF-8の場合は、以下のようになります。
+
+- wp-content
+	- plugins
+		- role-manager
+			| accept.png
+			| cancel.png
+			| refresh.png
+			| star.png
+			| star_disabled.png
+			| role-manager.php
+			| role-manager-ja_UTF.mo （使用中の文字コードにあわせた.moファイル）
+
+3. プラグイン管理画面にログインし、「Role Manager」プラグインを有効化します。
+
+4. ユーザー管理画面のサブメニューとして現れる、「Roles」管理パネルへ移動し、アイコンをクリックすることでグループの権限を変更可能です。
+
+5. 個人ユーザーの権限を追加・削除したい場合は、そのユーザーのアカウント情報編集画面を開きます（ユーザー＞投稿者とユーザー＞投稿者の行、右端の「編集」をクリック）。下へスクロールして、チェックボックスをオン・オフにしてください。

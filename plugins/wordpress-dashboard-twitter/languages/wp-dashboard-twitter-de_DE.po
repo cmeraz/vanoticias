@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Dashboard Twitter v0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-06-28 23:12+0200\n"
+"Last-Translator: Robert Pfotenhauer <sprachdatei@wordpress-deutschland.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/wpdt.func.php:49
+#: inc/wpdt.func.php:108
+#: inc/wpdt.func.php:165
+#: inc/wpdt.func.php:221
+#@ wp-dashboard-twitter
+msgid "From"
+msgstr "Von"
+
+#: inc/wpdt.func.php:55
+#: inc/wpdt.func.php:114
+#@ wp-dashboard-twitter
+msgid "in reply to"
+msgstr "als Antwort auf"
+
+#: inc/wpdt.func.php:154
+#@ wp-dashboard-twitter
+msgid "No direct messages!"
+msgstr "Keine Direkten Nachrichten!"
+
+#: inc/wpdt.func.php:210
+#@ wp-dashboard-twitter
+msgid "No sent messages!"
+msgstr "Keine gesendeten Nachrichten!"
+
+#: inc/wpdt.func.php:223
+#@ wp-dashboard-twitter
+msgid "to"
+msgstr "an"
+
+#: inc/wpdt.func.php:267
+#@ wp-dashboard-twitter
+msgid "No favorites!"
+msgstr "Keine Favoriten!"
+
+#: wpdt.class.php:232
+#@ wp-dashboard-twitter
+msgid "WordPress Dashboard Twitter"
+msgstr "WordPress Dashboard Twitter"
+
+#: wpdt.class.php:282
+#: wpdt.class.php:404
+#@ wp-dashboard-twitter
+msgid "Mentions"
+msgstr "Antworten"
+
+#: wpdt.class.php:283
+#: wpdt.class.php:405
+#@ wp-dashboard-twitter
+msgid "Direct"
+msgstr "Nachrichten"
+
+#: wpdt.class.php:284
+#: wpdt.class.php:406
+#@ wp-dashboard-twitter
+msgid "Sent"
+msgstr "Gesendet"
+
+#: wpdt.class.php:285
+#: wpdt.class.php:407
+#@ wp-dashboard-twitter
+msgid "Favorites"
+msgstr "Favoriten"
+
+#: wpdt.class.php:293
+#: wpdt.class.php:300
+#: wpdt.class.php:307
+#: wpdt.class.php:314
+#: wpdt.class.php:321
+#: wpdt.class.php:328
+#@ wp-dashboard-twitter
+msgid "Reload"
+msgstr "Neu laden"
+
+#: wpdt.class.php:495
+#, php-format
+#@ wp-dashboard-twitter
+msgid "%s ago"
+msgstr "vor %s"
+
+#: wpdt.class.php:393
+#@ wp-dashboard-twitter
+msgid "How many items?"
+msgstr "Wie viele Nachrichten sollen angezeigt werden?"
+
+#: wpdt.class.php:422
+#@ wp-dashboard-twitter
+msgid "Show Avatars?"
+msgstr "Avatare anzeigen?"
+
+#: wpdt.class.php:575
+#@ wp-dashboard-twitter
+msgid "WordPress Dashboard Twitter requires at least WordPress 2.7!"
+msgstr "WordPress Dashboard Twitter ben&ouml;tigt mindestens WordPress 2.7!"
+
+#: wpdt.class.php:588
+#@ wp-dashboard-twitter
+msgid "WordPress Dashboard Twitter requires at least PHP5!"
+msgstr "WordPress Dashboard Twitter ben&ouml;tigt mindestens PHP 5!"
+
+#: inc/wpdt.func.php:35
+#@ wp-dashboard-twitter
+msgid "No mentions!"
+msgstr "Keine Erw&auml;hnungen!"
+
+#: wpdt.class.php:268
+#@ wp-dashboard-twitter
+msgid "<strong>NOTE:</strong> The Twitter API only allows clients to make a limited number of calls in a given period. You just exceeded the rate limit."
+msgstr "<strong>HINWEIS:</strong> Die Twitter API erlaubt nur eine begrenzte Anzahl an Zugriffen pro Stunde. Du hast das Limit bereits &uuml;berschritten."
+
+#: inc/wpdt.func.php:51
+#: inc/wpdt.func.php:110
+#: inc/wpdt.func.php:167
+#@ wp-dashboard-twitter
+msgid "Reply"
+msgstr "Antworten"
+
+#: wpdt.class.php:402
+#@ wp-dashboard-twitter
+msgid "Tab to open by default"
+msgstr "Beim Start folgendes Tab &ouml;ffnen"
+
+#: wpdt.class.php:480
+#, php-format
+#@ wp-dashboard-twitter
+msgid "Hello %s"
+msgstr "Hallo %s"
+
+#: wpdt.class.php:480
+#, php-format
+#@ wp-dashboard-twitter
+msgid "You have %d followers"
+msgstr "Du hast %d Verfolger"
+
+#: wpdt.class.php:293
+#: wpdt.class.php:300
+#: wpdt.class.php:307
+#: wpdt.class.php:314
+#: wpdt.class.php:321
+#: wpdt.class.php:328
+#@ wp-dashboard-twitter
+msgid "Update Status"
+msgstr "Status aktualisieren"
+
+#: wpdt.class.php:343
+#: wpdt.class.php:540
+#@ wp-dashboard-twitter
+msgid "Send Update"
+msgstr "Update senden"
+
+#: wpdt.class.php:343
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: inc/wpdt.func.php:281
+#: inc/wpdt.func.php:332
+#, php-format
+#@ default
+msgid "By %s"
+msgstr ""
+
+#: wpdt.class.php:334
+#@ wp-dashboard-twitter
+msgid "Shorten URL"
+msgstr "URL k&uuml;rzen"
+
+#: wpdt.class.php:539
+#@ wp-dashboard-twitter
+msgid "An empty tweet would not make sense, eh?"
+msgstr "Ein leerer Tweet ist ziemlich sinnlos, oder?"
+
+#: wpdt.class.php:544
+#@ wp-dashboard-twitter
+msgid "Please enter a long URL!"
+msgstr "Gib eine ungekürzte URL ein!"
+
+#: inc/wpdt.func.php:51
+#: inc/wpdt.func.php:110
+#@ wp-dashboard-twitter
+msgid "Reply to a user"
+msgstr "Einem Benutzer antworten"
+
+#: inc/wpdt.func.php:167
+#, php-format
+#@ wp-dashboard-twitter
+msgid "Compose a new Direct Message to %s"
+msgstr "Schreibe %s eine Privatnachricht"
+
+#: wpdt.class.php:336
+#@ wp-dashboard-twitter
+msgid "Upload &amp; Shorten Image"
+msgstr "Bild hochladen &amp; Kurz-URL erstellen"
+
+#: wpdt.class.php:426
+#@ wp-dashboard-twitter
+msgid "Use Twitpic to share photos on Twitter?"
+msgstr "Twitpic nutzen, um deine Fotos bei Twitter anzuzeigen?"
+
+#: wpdt.class.php:541
+#@ wp-dashboard-twitter
+msgid "Send Direct Message"
+msgstr "Privatnachricht senden"
+
+#: wpdt.class.php:545
+#@ wp-dashboard-twitter
+msgid "Invalid file extension!"
+msgstr "Ungültige Dateiendung"
+
+#: wpdt.class.php:543
+#@ wp-dashboard-twitter
+msgid "Sending..."
+msgstr "Sende..."
+
+#: wpdt.class.php:293
+#: wpdt.class.php:300
+#: wpdt.class.php:307
+#: wpdt.class.php:314
+#: wpdt.class.php:321
+#: wpdt.class.php:328
+#, php-format
+#@ wp-dashboard-twitter
+msgid "Remaining API for account %s: %d/%d"
+msgstr "Verbleibende API-Anfragen f&uuml;r %s: %d/%d"
+
+#: inc/wpdt.func.php:51
+#: inc/wpdt.func.php:110
+#@ wp-dashboard-twitter
+msgid "Retweet this message"
+msgstr "Retweete diese Nachricht"
+
+#: inc/wpdt.func.php:51
+#: inc/wpdt.func.php:110
+#@ wp-dashboard-twitter
+msgid "Retweet"
+msgstr "Retweet"
+
+#: wpdt.class.php:266
+#, php-format
+#@ wp-dashboard-twitter
+msgid "The following directory needs to be writable: %s [<a href='%s'>Recheck</a>]"
+msgstr "Folgender Ordner muss beschreibbar sein: %s [<a href='%s'>Nochmal pr&uuml;fen</a>]"
+
+#: wpdt.class.php:413
+#@ wp-dashboard-twitter
+msgid "URL Shortener"
+msgstr "Kurz-URL-Anbieter"
+
+#: wpdt.class.php:415
+#@ wp-dashboard-twitter
+msgid "wp.gd"
+msgstr "wp.gd"
+
+#: wpdt.class.php:416
+#@ wp-dashboard-twitter
+msgid "tr.im"
+msgstr "tr.im"
+
+#: wpdt.class.php:542
+#@ wp-dashboard-twitter
+msgid "Verify Credentials"
+msgstr "Zugangsdaten &uuml;berpr&uuml;fen"
+
+#: wpdt.class.php:417
+#@ wp-dashboard-twitter
+msgid "bit.ly"
+msgstr "bit.ly"
+
+#: wpdt.class.php:253
+#@ wp-dashboard-twitter
+msgid "Twitter is unavailable at the moment. Please try again later!"
+msgstr "Twitter ist im Moment nicht verf&uuml;gbar. Bitte versuchen Sie es sp&auml;ter noch einmal!"
+
+#: wpdt.class.php:480
+#, php-format
+#@ wp-dashboard-twitter
+msgid "You wrote %d statuses so far and are listed on %d Twitter lists"
+msgstr "Du hast bisher %d Statusmeldungen verfasst und bist auf %d Twitter-Listen vertreten"
+
+#: inc/wpdt.func.php:94
+#@ wp-dashboard-twitter
+msgid "No statuses!"
+msgstr "Keine Nachrichten!"
+
+#: inc/wpdt.func.php:323
+#@ wp-dashboard-twitter
+msgid "No retweets of your statuses yet!"
+msgstr "Keine Retweets deiner Nachrichten bisher!"
+
+#: wpdt.class.php:257
+#@ wp-dashboard-twitter
+msgid "This plugin version introduces OAuth Support for Twitter. Twitter announced in December of 2009 the deprecation of Basic Auth on August 16th 2010. Please login with Twitter by clicking the image above, and follow the on-screen instructions."
+msgstr "Diese Pluginversion f&uuml;hrt OAuth-Support f&uuml;r Twitter ein. Twitter k&uuml;ndigte den Ablauf von Basic Auth für den 16. August 2010 an. Bitte logge Dich in Twitter ein, indem du auf das obere Bild klickst und folge den Anweisungen auf dem Bildschirm."
+
+#: wpdt.class.php:270
+#, php-format
+#@ wp-dashboard-twitter
+msgid "<strong>NOTE:</strong> Please <a href=\"%s\">save</a> the plugin options for the new options to take effect!"
+msgstr "<strong>HINWEIS:</strong> Bitte <a href=\"%s\">speichere</a> die Pluginoptionen, damit die neuen &Auml;nderungen &uuml;bernommen werden!"
+
+#: wpdt.class.php:286
+#: wpdt.class.php:408
+#@ wp-dashboard-twitter
+msgid "Retweeted"
+msgstr "Retweets"
+
+#: wpdt.class.php:287
+#: wpdt.class.php:409
+#@ wp-dashboard-twitter
+msgid "Timeline"
+msgstr "Timeline"
+
+#: wpdt.class.php:431
+#@ wp-dashboard-twitter
+msgid "Make the Dashboard Widget accessible for everyone?"
+msgstr "Das Dashboard Widget f&uuml;r jeden nutzbar machen?"
+
+#: wpdt.class.php:480
+#@ default
+msgid "Log out"
+msgstr ""
+

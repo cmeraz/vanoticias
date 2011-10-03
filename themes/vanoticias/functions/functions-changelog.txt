@@ -1,0 +1,39 @@
+*** WooThemes Framework Changelog ***
+
+2009.08.26 - Version 1.0.7
+ * admin-setup.php - Added localization
+ * admin-setup.php - Added custom.css stylesheet link insert into the header
+ * admin-interface.php - Changed ABSPATH to TEMPLATEPATH when assigning the get_theme_data argument.
+ * admin-functions.php - Changed ABSPATH to TEMPLATEPATH when assigning the get_theme_data argument.
+ * admin-functions.php - Reworked woo_get_image to be less dependent on php function and added, 'woo_force_all' and 'woo_force_single' options for image sizing issues.
+ * admin-interface.php - Reworked the file uploader to catch permission errors.
+ * admin-costom.php - Reworked the file uploader to catch permission errors.
+ * admin-style.css - Added new style for error popup
+ * /images/error.png - Added icon for .errors class in CSS
+
+2009.08.13 - Version 1.0.6
+ * admin-setup.php - Removed permanent woo_option_output() from wp_footer. Added as parameter.
+ * admin-interface.php - Uploads rewritten with Content Directories Constants. http://codex.wordpress.org/Determining_Plugin_and_Content_Directories
+
+2009.08.05 - Version 1.0.5
+ * admin-interface.php - Fixed but with Abolute path on Theme version checker.
+
+2009.08.03 - Version 1.0.4a
+ * admin-interface.php - Removed Update notifier. Added support for '&' in select boxes.
+
+2009.07.27 - Version 1.0.4
+ * admin-functions.php - Modified woo_get_image(), added get_page_id() function, added post [insert] shortcode.
+ * admin-interface.php - Added Update Notifier,
+ * admin-setup.php - Added custom CSS header insert, added encrypted footer woo_ options output (debugging).
+
+2009.07.16 - Version 1.0.3
+ * admin-functions.php - Fixed woo_get_image syntax.
+
+2009.07.07 - Version 1.0.2
+ * admin-custom.php - Added alternative method. Javascript <form id="post"> hack for IE7. ie. Custom field uploading IE7 fix.
+
+2009.07.07 - Version 1.0.1
+ * admin-functions.php - Added extra "$force" argument to the woo_get_image function. Adds ability to force woo_get_images to be set to given dimention when GD library is not available. (small image forced resize bug + img load missing height bug)
+
+2009.07.06 - Version 1.0.0
+ * First Logged release

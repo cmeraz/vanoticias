@@ -1,0 +1,66 @@
+<?php
+/**
+ * Plugin Name: myEASYhider
+ * Plugin URI: http://myeasywp.com/plugins/myeasyhider/
+ * Version: 1.0.4
+ * Author: Ugo Grandolini aka "camaleo"
+ *
+ * TOOL TO REMOVE ALL THE PLUGIN SETTINGS.
+ *
+ * !!! WARNING !!!
+ *
+ * This tool automatically removes ALL your myEASYhider settings
+ * without aking anything. For this reason it is stored without extension,
+ * by doing this we prevent any unauthrized user to remove the plugin settings.
+ *
+ * Instructions:
+ *
+ * 1) Using an FTP program rename this file to "myeasyhider-reset.php"
+ *
+ * 2) On your browser enter the following address - be sure to REPLACE
+ *    "example.com" WITH the address of your blog:
+ *
+ *      http://example.com/wp-content/plugins/myeasyhider/myeasyhider-reset.php
+ *
+ * 3) Using an FTP program rename this file to "myeasyhider-reset"
+ *
+ */
+require_once('../../../wp-load.php');
+
+delete_option( 'meh_def_items' );
+delete_option( 'meh_ids' );
+
+/**
+ * get the users list
+ */
+$sql = 'SELECT user_login FROM `'.$wpdb->users.'` ';
+$rows = $wpdb->get_results( $sql );
+foreach($rows as $row) {
+
+	/**
+	 * remove each user settings
+	 */
+	delete_option( 'meh_def_items'.$row->user_login );
+	delete_option( 'meh_ids'.$row->user_login );
+}
+
+delete_option( 'meh_allowed_users' );
+delete_option( 'meh_isACTIVE' );
+delete_option( 'meh_showcredits' );
+
+/**
+ * pro
+ */
+delete_option( 'meh_header_logo' );
+delete_option( 'meh_hf_fgcolor' );
+delete_option( 'meh_hf_bgcolor' );
+delete_option( 'meh_footer_credits' );
+
+echo '<h3>All the myEASYhider plugin options were removed.</h3>'
+	.'<p>The plugin is still active but it does not do his work until you reconfigure its options.</p>'
+	.'<p>Be sure to <span style="color:red;font-weight:bold;">rename this file as soon as possible</span> to avoid the risk to get the plugin options removed by someone ease</p>'
+
+	.'<br /><p><a href="http://'.$_SERVER['HTTP_HOST'].'">Click here to return to the home page</a>.</p>'
+;
+
+?>

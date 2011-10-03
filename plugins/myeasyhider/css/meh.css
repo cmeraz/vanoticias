@@ -1,0 +1,58 @@
+div.light {
+	margin-top:8px;
+	width:100%;
+	background:#eaeaea;
+	border:1px solid #bfbfbf;
+	-moz-border-radius:6px;border-radius:6px;
+}
+div.medium {
+	float:left;
+	width:100%;
+	margin-bottom:12px;
+	padding:8px;
+	background:#bfbfbf;
+	border:1px solid #9f9f9f;
+	-moz-border-radius:6px;border-radius:6px;
+}
+	div.left {
+		float:left;
+		width:30%;
+		padding:8px;
+	}
+	div.right {
+		float:left;
+		width:65%;
+		padding:8px 0 0 1%;
+	}
+
+div.button-separator {
+	width:100%;
+	margin:4px 0 0 0;
+	padding:4px 0 0 0;
+	border-top:0px solid #eaeaea;
+	text-align:right;
+}
+div.meh-selector-img {
+	float:left;
+	background-image:url(../img/wp-dashboard-490.png);
+	/*background-image:url('http://myeasywp.com/service/meh-img/wp-dashboard-490.png');*/
+	width:490px;
+	height:336px;
+	margin:20px 0;
+	padding:0;
+}
+	div.meh-selector, div.meh-selector-selected {
+		position:relative;
+		float:left;
+		-moz-opacity:0.40;opacity:0.40;filter:alpha(opacity=40);
+		-moz-border-radius:3px;border-radius:3px;
+		background-color:green;
+	}
+	div.meh-selector-selected {
+		background-color:red;
+	}
+	div.meh-selector:hover, div.meh-selector-selected:hover {
+		cursor:pointer;
+		border:0px dotted red;
+		background-color:yellow;
+	}
